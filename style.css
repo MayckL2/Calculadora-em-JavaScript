@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: white;
+}
+
+main {
+  border: solid;
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  background-color: gray;
+}
+main input {
+  width: 300px;
+  height: 50px;
+  margin: 10px;
+  font-size: 30px;
+}
+main ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  margin-left: 25px;
+}
+main ul li {
+  list-style: none;
+  padding: 20px;
+  margin: 5px;
+  box-shadow: 1px 1px 5px;
+  transition: all 0.5s;
+  background-color: white;
+  font-size: 30px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+}
+main ul li:hover {
+  cursor: pointer;
+  scale: 1.2;
+}
+main ul #igual {
+  background-color: greenyellow;
+  padding: 20px 30px;
+}
+main ul #apaga {
+  background-color: greenyellow;
+  padding: 20px 28px;
+}/*# sourceMappingURL=style.css.map */

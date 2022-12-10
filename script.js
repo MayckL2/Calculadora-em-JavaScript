@@ -17,7 +17,7 @@ function apaga(){
     mostra.value= ""
 }
 
-// executa funçao result ao precionar enter
+// pega o valor digitado no teclado
 function enter(event){
     if (event.which == 13){
         result()

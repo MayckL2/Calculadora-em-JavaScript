@@ -52,4 +52,51 @@ main ul #igual {
 main ul #apaga {
   background-color: greenyellow;
   padding: 20px 28px;
+}
+
+@-webkit-keyframes modal {
+  from {
+    margin-top: 0px;
+  }
+  to {
+    margin-top: 50px;
+  }
+}
+
+@keyframes modal {
+  from {
+    margin-top: 0px;
+  }
+  to {
+    margin-top: 50px;
+  }
+}
+.modal {
+  position: absolute;
+  top: 160px;
+  left: 20px;
+  padding: 15px;
+  width: 25vw;
+  border-radius: 10px;
+  background-color: gray;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  display: none;
+}
+.modal h1:nth-of-type(1) {
+  position: absolute;
+  right: 15px;
+  top: -10px;
+  transition: all 0.5s;
+  color: red;
+}
+.modal h1:nth-of-type(1):hover {
+  color: black;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .modal {
+    width: 90vw;
+  }
 }/*# sourceMappingURL=style.css.map */

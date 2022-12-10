@@ -87,6 +87,7 @@ function modal(){
     text.style.marginTop= "50px"
 }
 
+// fecha modal
 function fecha(){
 
     text.style.display= "none"
